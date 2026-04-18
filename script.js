@@ -112,7 +112,7 @@ boton.addEventListener('click', () => {
 
     // 3. Calcular posición aleatoria en pantalla
     const posX = Math.random() * (window.innerWidth - 200); // Evitar que se corte en el borde derecho
-    const posY = (Math.random() * (window.innerHeight - 150)) + 50; // Evitar que se corte arriba/abajo
+  const posY = (Math.random() * (window.innerHeight * 0.7)) + 50; // Evitar que se corte arriba/abajo
 
     // 4. Aplicar la posición al nuevo mensaje
     nuevoMensaje.style.left = `${posX}px`;
