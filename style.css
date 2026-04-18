@@ -1,3 +1,22 @@
+/* --- AJUSTES PARA DISPOSITIVOS MÓVILES --- */
+@media (max-width: 600px) {
+    
+    /* 1. Ajustar el tamaño del texto para que no sea gigante */
+    .mensaje-texto {
+        font-size: 1.1rem; /* Un poco más pequeño */
+        max-width: 85%;    /* Evita que el texto choque con los bordes de la pantalla */
+        text-align: center;
+        padding: 5px;
+    }
+
+    /* 2. Ajustar el botón para que sea más fácil de tocar y no ocupe tanto espacio */
+    #boton-estrella {
+        width: 85%;        /* Ocupa casi todo el ancho, más cómodo para el dedo */
+        font-size: 1rem;
+        padding: 12px 10px;
+        bottom: 20px;      /* Un poco más arriba para evitar la barra de navegación del móvil */
+    }
+}
 body {
     margin: 0;
     overflow: hidden; /* Evita barras de desplazamiento */
